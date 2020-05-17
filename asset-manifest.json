@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Pg_find/static/css/main.00182901.chunk.css",
+    "main.js": "/Pg_find/static/js/main.aeb164fa.chunk.js",
+    "main.js.map": "/Pg_find/static/js/main.aeb164fa.chunk.js.map",
+    "runtime-main.js": "/Pg_find/static/js/runtime-main.490d2cb4.js",
+    "runtime-main.js.map": "/Pg_find/static/js/runtime-main.490d2cb4.js.map",
+    "static/css/2.036b41f9.chunk.css": "/Pg_find/static/css/2.036b41f9.chunk.css",
+    "static/js/2.02479801.chunk.js": "/Pg_find/static/js/2.02479801.chunk.js",
+    "static/js/2.02479801.chunk.js.map": "/Pg_find/static/js/2.02479801.chunk.js.map",
+    "index.html": "/Pg_find/index.html",
+    "precache-manifest.0cdcde902af9e5e147320f48004fc9b0.js": "/Pg_find/precache-manifest.0cdcde902af9e5e147320f48004fc9b0.js",
+    "service-worker.js": "/Pg_find/service-worker.js",
+    "static/css/2.036b41f9.chunk.css.map": "/Pg_find/static/css/2.036b41f9.chunk.css.map",
+    "static/css/main.00182901.chunk.css.map": "/Pg_find/static/css/main.00182901.chunk.css.map",
+    "static/js/2.02479801.chunk.js.LICENSE.txt": "/Pg_find/static/js/2.02479801.chunk.js.LICENSE.txt",
+    "static/media/Hyderabad.jpg": "/Pg_find/static/media/Hyderabad.616e2078.jpg",
+    "static/media/kolkata.jpg": "/Pg_find/static/media/kolkata.730b9edb.jpg",
+    "static/media/mumbai.jpg": "/Pg_find/static/media/mumbai.e46e69ff.jpg",
+    "static/media/pg1.jpg": "/Pg_find/static/media/pg1.489c7496.jpg",
+    "static/media/pg2.jpg": "/Pg_find/static/media/pg2.d6dd3e5c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.490d2cb4.js",
+    "static/css/2.036b41f9.chunk.css",
+    "static/js/2.02479801.chunk.js",
+    "static/css/main.00182901.chunk.css",
+    "static/js/main.aeb164fa.chunk.js"
+  ]
+}
