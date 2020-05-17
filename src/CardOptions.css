@@ -1,0 +1,15 @@
+#list {
+    width: 90vw;
+    height: auto;
+    /* margin-left: 5vm; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+    
+    background: linear-gradient(to left, #053d4e79,#0241667c, #00042862); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

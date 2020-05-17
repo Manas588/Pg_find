@@ -1,0 +1,30 @@
+.house {
+    
+    width: 90%;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    
+    row-gap: 0px;
+    justify-content: center;
+    
+    
+    
+    
+}
+.h1 {
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+   
+}
+.house {
+    position: fixed;
+    top: 5vh;
+    bottom: 5vh;
+}
+p {
+    background: #ffffff00;
+}
