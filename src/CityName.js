@@ -13,7 +13,7 @@ const CityName = ({city})=> {
             <div className='city'>
                 <img  className='grow shadow-5 ma4 bw2 b--white ba' src={mumbai} 
                 alt='face' style={{width: '150px', height:'150px',borderRadius: '150px'}}/>
-                <p className='f3  bg-white-10 tc white br3 grow shadow-5 pa2'>Mumbai</p>
+                <p style={{fontSize: '3.3vw'}} className='  bg-white-10 tc white br3 grow shadow-5 pa2'>Mumbai</p>
                 
             </div>
           
@@ -24,7 +24,7 @@ const CityName = ({city})=> {
             <div className='city'>
                 <img  className='shadow-5 ma4 bw2 b--white ba' src={kolkata} 
                 alt='face' style={{width: '150px', height:'150px',borderRadius: '150px'}}/>
-                <p className='f3 bg-white-10 white br3 shadow-5 pa2 grow'>Kolkata</p>
+                <p style={{fontSize: '3.3vw'}} className=' bg-white-10 white br3 shadow-5 pa2 grow'>Kolkata</p>
                 
             </div>
           
@@ -35,7 +35,7 @@ const CityName = ({city})=> {
             <div className='city'>
                 <img  className='shadow-5 ma4 bw2 b--white ba' src={hyderabad} 
                 alt='face' style={{width: '150px', height:'150px',borderRadius: '150px'}}/>
-                <p className='f3 br3 bg-white-10 white shadow-5 pa2 grow'>Hyderabad</p>
+                <p style={{fontSize: '3.3vw'}} className=' br3 bg-white-10 white shadow-5 pa2 grow'>Hyderabad</p>
                 
             </div>
           
