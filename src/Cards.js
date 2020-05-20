@@ -14,7 +14,7 @@ class Cards extends React.Component{
         const idstring = toString(id);
         console.log(id)
         return (
-            <Link to={{pathname:`/${city}/${id}`, foo: "foo"}} params={{goo: "goo"}} 
+            <Link to={{pathname:`${process.env.PUBLIC_URL}/${city}/${id}`, foo: "foo"}} params={{goo: "goo"}} 
             target="_blank" style={{ textDecoration: 'none' }}>
                 <div className='card grow shadow-5 tl ma1 br4 f4 '>
                     <img  className='shadow-5 bw2 b--black img-responsive' src={face} alt='face'
