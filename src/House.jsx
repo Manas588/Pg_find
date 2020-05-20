@@ -23,7 +23,7 @@ class House extends React.Component {
         const  { city }= this.props.match.params;
         
         
-        fetch(`http://localhost:3001/Pgfind/${city}`)
+        fetch(`https://pg-find.herokuapp.com/Pgfind/${city}`)
         .then(response=>response.json())
         .then(data=>{
             const pg = data.filter(pg=>pg.id == id)
@@ -31,7 +31,7 @@ class House extends React.Component {
             this.setState({pgdata:pg[0]})         
         }).catch(err=>console.log(err))
         console.log(this.state.pgdata)
-        fetch(`http://localhost:3001/Pgfind/Features?id=${id}`)
+        fetch(`https://pg-find.herokuapp.com/Pgfind/Features?id=${id}`)
         .then(response=>response.json())
         .then(data=>this.setState({pgfeatures: data[0]}))
             

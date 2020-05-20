@@ -16,7 +16,7 @@ class BigOne extends React.Component {
     }
   
     componentDidMount() {
-      fetch(`http://localhost:3001/Pgfind/${this.props.city}`)
+      fetch(`https://pg-find.herokuapp.com/Pgfind/${this.props.city}`)
       .then(response=>response.json())
       .then(data=> {this.setState({citydata: data}) }).catch(err=>console.log(err))
       
