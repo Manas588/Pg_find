@@ -27,13 +27,13 @@ const particlesOptions = {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Particles className='particles'
             params={particlesOptions}
           />
       <Switch>
-        <Route exact path='/Pg_find/' component={MainPage} />
-        <Route exact path='/Pg_find/:city/:id' component={House} />
+        <Route exact path='/' component={MainPage} />
+        <Route exact path='/:city/:id' component={House} />
         <Route exact path='/404' component = {NotFound} />
         <Redirect to='/404'/>
 
